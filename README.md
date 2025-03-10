@@ -6,9 +6,8 @@ This project provides a comprehensive data pipeline solution to extract, transfo
 
 - [Overview](#overview)
 - [Architecture](#architecture)
-- [Prerequisites](#prerequisites)
-- [System Setup](#system-setup)
-- [Video](#video)
+- [Skills](#skills)
+
 
 ## Overview
 
@@ -29,40 +28,14 @@ The pipeline is designed to:
 6. **Amazon Athena**: SQL-based data transformation.
 7. **Amazon Redshift**: Data warehousing and analytics.
 
-## Prerequisites
-- AWS Account with appropriate permissions for S3, Glue, Athena, and Redshift.
-- Reddit API credentials.
-- Docker Installation
-- Python 3.9 or higher
+## Skills
+- AWS S3, Glue, Athena, and Redshift & QuickSight.
+- Docker.
+- Python.
+- Apache Airflow.
+- PstgreSQL.
+- Reddit API.
 
-## System Setup
-1. Clone the repository.
-   ```bash
-    git clone https://github.com/airscholar/RedditDataEngineering.git
-   ```
-2. Create a virtual environment.
-   ```bash
-    python3 -m venv venv
-   ```
-3. Activate the virtual environment.
-   ```bash
-    source venv/bin/activate
-   ```
-4. Install the dependencies.
-   ```bash
-    pip install -r requirements.txt
-   ```
-5. Rename the configuration file and the credentials to the file.
-   ```bash
-    mv config/config.conf.example config/config.conf
-   ```
-6. Starting the containers
-   ```bash
-    docker-compose up -d
-   ```
-7. Launch the Airflow web UI.
-   ```bash
-    open http://localhost:8080
-   ```
+
 
 
